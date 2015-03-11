@@ -1,5 +1,5 @@
 {
-    "name": "netzmacht/contao-xnavigation-metamodels",
+    "name": "wola/wola-contao-xnavigation-metamodels",
     "description": "Metamodels navigation for the xNavigation extension.",
     "keywords": ["contao", "navigation", "metamodels"],
     "type": "contao-module",
@@ -15,8 +15,8 @@
     ],
     "support": {
         "email": "info@bit3.de",
-        "issues": "https://github.com/netzmacht/contao-xnavigation-metamodels/issues",
-        "source": "https://github.com/netzmacht/contao-xnavigation-metamodels"
+        "issues": "https://github.com/wola/wola-contao-xnavigation-metamodels/issues",
+        "source": "https://github.com/wola/wola-contao-xnavigation-metamodels"
     },
     "require": {
         "php": ">=5.3",
