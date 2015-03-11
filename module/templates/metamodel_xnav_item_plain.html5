@@ -1,0 +1,6 @@
+<?php foreach ($this->item['attributes'] as $field => $strName): ?>
+    <?php if ((isset($this->item[$this->getFormat()][$field]) && ($strValue = $this->item[$this->getFormat()][$field])
+        || (isset($this->item['text'][$field]) && ($strValue = $this->item['text'][$field])))): ?>
+        <?php echo $strValue; ?>
+    <?php endif; ?>
+<?php endforeach; ?>

@@ -1,0 +1,11 @@
+<?php foreach ($this->item['attributes'] as $field => $strName): ?>
+    <?php if ((isset($this->item[$this->getFormat()][$field]) && ($strValue = $this->item[$this->getFormat()][$field])
+        || (isset($this->item['text'][$field]) && ($strValue = $this->item['text'][$field])))): ?>
+        <span class="field <?php echo $field; ?>">
+            <?php if(!$this->settings->get('hideLabels')): ?>
+                <span class="label"><?php echo sprintf($GLOBALS['TL_LANG']['MSC']['field_label'], $strName); ?></span>
+            <?php endif; ?>
+            <span class="value"> <?php echo $strValue; ?></span>
+        </span>
+    <?php endif; ?>
+<?php endforeach; ?>
